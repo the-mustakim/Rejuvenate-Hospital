@@ -1,0 +1,209 @@
+
+/* #region 
+Table of content
+
+1. General
+2. Navbar
+3. Banner
+4. About
+5. Services
+6. Team
+7. Gallery
+8. Testimonial
+9. Blog
+10. Footer
+
+*/
+
+/* Generals - Font Families */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:wght@100;200;300;400;500l600;700;900&display=swap');
+
+
+:root
+{
+    --primary-color:#004caa;
+    --secondary-color:#fc5185;
+    --bg-light-blue:#3672bc;
+    --bg-dark:#666;
+    --bg-white:#fff;
+
+
+    /* Text Styles */
+    --primary-font: 'Roboto Slab', serif;
+    --secondary-font: 'Josefin Sans', sans-serif;
+    --primary-text:#004caa;
+    --secondary:#fc5185;
+    --text-white:#fff;
+    --text-black:#222;
+    --text-gray:#666;
+    --text-light:#ddd;
+}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+.rowColor
+{
+  background-color: #f1f7fd;
+}
+
+.serviceIcon
+{
+    background-color: rgb(183, 197, 226);
+    width: 30px;
+    height:30px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 240px;
+}
+
+.pointer-cursor:hover {
+  cursor: pointer;
+}
+
+.Cardiology
+{
+  background-color: white;
+}
+
+
+.hover-color:hover {
+  background-color: #f1f7fd;
+}
+.mycol
+{
+  width: 0px;
+}
+
+.MySection
+{
+  margin: 50px;
+}
+.WhyHms
+{
+  width: 400px;
+  height: 400px;
+  background-color: #1977cc;
+  border-radius: 3px;
+  padding: 30px;
+}
+
+
+.SampleCard
+{
+  width: 300px;
+  height: 300px;
+}
+
+.doctors1
+{
+  width: 90%;
+  border-radius: 50%;
+  
+}
+
+.mytext
+{
+  color: white;
+}
+
+
+@media (max-width:600px) {
+  .mytext{
+    font-size: 14px;
+  }
+}
+
+
+
+.mybtn
+{
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+.mybtn:hover
+{
+  background-color: white;
+  color: #1977cc;
+}
+
+.mytext2
+{
+  text-align: center;
+}
+
+.HomeBtn
+{
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #1977cc;
+  color: white;
+}
+
+.HomeBtn:hover
+{
+  background-color: rgb(83, 163, 233);
+}
+
+.doctorsImg
+{
+  width: 50%; 
+  height: 50%;
+  border-radius: 50%;
+}
+
+.socialMedia
+{
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #a0bcd5;
+}
+
+@media (max-width:600px) {
+  .myicons{
+    width: auto;
+    margin-top: -11px;
+  }
+  
+}
+
+
+.socialMedia:hover
+{
+  background: #1977cc;
+}
+
+.MySection2
+{
+  background-color: #f1f7fd;
+  height: 500px;
+}
+
+.closUp
+{
+  width: 400px;
+}
+
+.myAlert:hover
+{
+  --bs-alert-color: var(--bs-primary-text);
+  --bs-alert-bg: var(--bs-primary-bg-subtle);
+  --bs-alert-border-color: var(--bs-primary-border-subtle);
+  --bs-alert-link-color: var(--bs-primary-text);
+}

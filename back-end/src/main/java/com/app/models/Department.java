@@ -1,0 +1,5 @@
+package com.app.models;
+
+public enum Department {
+	DENTAL,ORTHOPEDICS,NEUROLOGY,CARDIOLOGY,SKIN,HEPATOLOGY,PEDIATRICS,EYECARE
+}

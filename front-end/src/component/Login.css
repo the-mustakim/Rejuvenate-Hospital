@@ -1,0 +1,57 @@
+.container-size{
+    height: 50%;
+    width: 50%;
+    margin-left: 24%;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.main
+{
+  margin: 10% auto;
+}
+
+.inputTag {
+    width: 50vh;
+    height: 5.5vh;
+    border-radius: 10px;
+    border: 1px none;
+}
+
+.myRow
+{
+  width: 50vh;
+  height: 5vh;
+}
+
+.forget-main
+{
+  margin: auto;
+  border: 1px solid black;
+  width: 600px;
+  height: 10%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.resetImg
+{
+  border-radius: 10px;
+}
+
+.divCennter
+{
+  margin-top:20%;
+}
+
+.main-new
+{
+  margin: auto;
+  margin-top: 12%;
+}

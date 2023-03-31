@@ -1,0 +1,55 @@
+.LoginInputSize
+{
+    width: 100;
+}
+
+.back
+{
+  margin: 0;
+}
+.app {
+    width: 400px;
+    margin-left: auto;
+  }
+  .dropdown-container {
+    width: 300px;
+  }
+
+
+.inputTag
+{
+  width: 100px;
+}
+
+.incrementAndDecrementTagSize
+{
+  padding: 0;
+}
+
+.inputPad
+{
+  margin: auto;
+  width: auto;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.HeadingColor
+{
+  color: #2c4964;
+}
+
+.contact
+{
+  margin-top: 8%;
+}
+

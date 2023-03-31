@@ -1,0 +1,33 @@
+services:
+  back-end:
+    build:
+      context: back-end
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    environment:
+      DB_URL: jdbc:mysql://dbmysql:3306/hmsnew1
+      DB_USERANAME: root
+      DB_PASSWORD: Mustakim@123
+    depends_on:
+      - dbmysql
+  front-end:
+    build:
+      context: front-end
+      dockerfile: Dockerfile
+    ports:
+      - 80:3000
+    depends_on:
+      - back-end
+  dbmysql:
+    image: mysql:8.0.28
+    volumes:
+      - dbdata:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: hmsnew1
+      MYSQL_ROOT_PASSWORD: Mustakim@123
+      MYSQL_USER: Mustakim
+      MYSQL_PASSWORD: Mustakim@123
+
+volumes:
+  dbdata:
