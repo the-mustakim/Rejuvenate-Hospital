@@ -85,5 +85,6 @@ The software enables administrators and authorized personnel to manage patient a
 - **Java 8**: The backend logic is written in Java.
 - **Spring Boot**: For building the REST API and backend services.
 - **MySQL**: For database management and storing hospital data.
+- **Docker**: For contenarization on AWS EC2 deployement
 
 ---
