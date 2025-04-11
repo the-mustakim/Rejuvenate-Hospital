@@ -1,90 +1,103 @@
-# Hospital Management System
+# 🏥 Hospital Management System
 
-## Overview
-
-The **Hospital Management System (HMS)** is an integrated software solution designed to streamline hospital operations. It covers various aspects such as patient registration, doctor management, appointment scheduling, and medicine distribution. The system is accessible to different users with role-based access, including administrators, doctors, patients, receptionists, and pharmacists. 
-
-The software enables administrators and authorized personnel to manage patient and staff details, ensure secure data storage, and provide a user-friendly interface for patients to interact with healthcare services.
-
-### Key Features
-
-1. **Patient Registration & Management**  
-   - Patients are assigned unique IDs upon registration.  
-   - Personal and medical information are securely stored in the system.  
-   - Patients can book appointments and view their prescriptions.
-
-2. **Doctor & Staff Management**  
-   - Admin can manage doctor details, availability, and schedules.  
-   - Doctors can view and update patient records, provide prescriptions, and manage appointments.
-
-3. **Authentication & Access Control**  
-   - **JWT Authentication** ensures secure access to the application.  
-   - Role-based access control (Admin, Doctor, Receptionist, Patient, Pharmacist).
-
-4. **Appointment Booking**  
-   - Patients can book appointments with available doctors.  
-   - Receptionists and Admin can manage and update appointments.
-
-5. **Prescription & Medicine Management**  
-   - Doctors can provide prescriptions, which patients can view.  
-   - Pharmacists assign and manage medicines for prescriptions.
-
-6. **Billing & Payments**  
-   - Patients can pay doctor fees and receive a bill receipt after online payments.
-
-7. **Complaint Management**  
-   - Users can submit complaints, which are then referred to the relevant authorities for action.
-
-8. **User Interface**  
-   - **User-friendly interface** for smooth navigation and interaction with the system.
-
-9. **Data Security**  
-   - Strong encryption mechanisms ensure patient and staff data security.
+An all-in-one software solution to **streamline hospital operations**, offering robust management of patients, doctors, appointments, prescriptions, billing, and more — built with **Spring Boot** & **React** for full-stack performance.
 
 ---
 
-## System Modules
+## 📌 Overview
 
-### 1. **Administrator Module**
-   - Managing patient and doctor information.
-   - Managing user roles and permissions.
-   - Referring complaints to relevant authorities.
-
-### 2. **Doctor Module**
-   - Viewing and managing patient information and appointments.
-   - Writing prescriptions for patients.
-   - Providing medical advice and notes to patients.
-
-### 3. **Patient Module**
-   - Registering with the hospital and managing their profile.
-   - Booking and managing appointments with doctors.
-   - Viewing prescriptions and medical history.
-   - Paying doctor fees online and receiving bill receipts.
-
-### 4. **Receptionist Module**
-   - Assisting patients with appointment booking and registration.
-   - Managing doctor schedules and availability.
-   - Assisting with patient check-in and check-out.
-
-### 5. **Pharmacist Module**
-   - Viewing and managing prescriptions provided by doctors.
-   - Assigning and dispensing medicines to patients based on prescriptions.
-   - Managing medicine inventory and stock.
+The **Hospital Management System (HMS)** is a secure, role-based platform designed to simplify and digitize healthcare services. With integrated modules for Admins, Doctors, Patients, Receptionists, and Pharmacists, it empowers healthcare institutions to manage all operations seamlessly.
 
 ---
 
-## Technologies Used
+## ✨ Key Features
 
-### Frontend
-- **React**: For building the dynamic user interface.
-- **CSS**: For styling the application.
-- **Bootstrap**: For responsive web design.
-- **HTML**: For the basic structure of the web pages.
+- ✅ **Patient Registration & Management**  
+  Secure storage of medical records, unique patient IDs, and appointment access.
 
-### Backend
-- **Java 8**: The backend logic is written in Java.
-- **Spring Boot**: For building the REST API and backend services.
-- **MySQL**: For database management and storing hospital data.
-- **Docker**: For contenarization on AWS EC2 deployement
+- 🧑‍⚕️ **Doctor & Staff Management**  
+  Admin control over doctors' availability and details. Doctors can update patient records and prescribe.
+
+- 🔐 **Authentication & Access Control**  
+  Powered by **JWT**, ensuring secure, role-based access (Admin, Doctor, Receptionist, Patient, Pharmacist).
+
+- 📅 **Appointment Booking System**  
+  Patients book online; receptionists and admins manage schedules.
+
+- 💊 **Prescription & Medicine Management**  
+  Doctors prescribe; pharmacists assign and manage medicines.
+
+- 💳 **Billing & Payments**  
+  Patients can pay fees online and receive instant receipts.
+
+- 📢 **Complaint Handling System**  
+  Patients can raise concerns routed to relevant authorities.
+
+- 🖥️ **User-Friendly Interface**  
+  Designed for ease of use with responsive design principles.
+
+- 🔐 **Data Security**  
+  All data encrypted to maintain high privacy and integrity standards.
+
+---
+
+## 🧩 System Modules
+
+### 🔧 Administrator
+- Manage users, roles, and permissions
+- View and edit hospital data
+- Address submitted complaints
+
+### 👨‍⚕️ Doctor
+- Access and update patient records
+- Manage appointments
+- Write and track prescriptions
+
+### 🧍 Patient
+- Register and maintain their medical profile
+- Book appointments
+- View prescriptions and pay bills online
+
+### 🧑‍💼 Receptionist
+- Manage patient check-ins and appointments
+- Help in doctor scheduling and availability
+
+### 💊 Pharmacist
+- Assign medicines based on prescriptions
+- Maintain and update inventory
+
+---
+
+## 🛠️ Tech Stack
+
+### ⚙ Backend
+- **Java 8**
+- **Spring Boot** – REST API & service layer
+- **MySQL** – Relational database
+- **JWT** – Token-based authentication
+- **Docker** – Containerized deployment (used for AWS EC2 setup)
+
+### 🌐 Frontend
+- **React.js** – Dynamic UI
+- **HTML5 + CSS3**
+- **Bootstrap** – Responsive and modern layout
+
+---
+
+## 🚀 Deployment
+
+> Easily containerized with Docker and deployable to AWS EC2 or any cloud platform.
+
+---
+
+## 📄 License & Contribution
+
+This is a student academic project. Forks, or pull requests are welcome to enhance features or improve performance.
+
+---
+
+## 🤝 Declaration
+
+All code and content in this repository are solely the original work of the developer unless otherwise referenced and cited.
 
 ---
